@@ -33,6 +33,7 @@ document.getElementById('noakhali-donate-btn').addEventListener('click',function
         div.classList.add('rounded-lg');
         
         document.getElementById('history-container').appendChild(div);
+        document.getElementById('noakhali-input').value = '';
     }
 
 })
@@ -75,6 +76,7 @@ document.getElementById('feni-donate-btn').addEventListener('click',function(eve
         div.classList.add('rounded-lg');
         
         document.getElementById('history-container').appendChild(div);
+        document.getElementById('feni-input').value = '';
     }
 
 })
@@ -116,6 +118,7 @@ document.getElementById('quota-donate-btn').addEventListener('click',function(ev
         div.classList.add('rounded-lg');
         
         document.getElementById('history-container').appendChild(div);
+        document.getElementById('quota-input').value = '';
     }
 
 })
