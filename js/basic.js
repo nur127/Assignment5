@@ -130,6 +130,4 @@ document.getElementById('primary-history-btn').addEventListener('click',function
     showsection('history-container');
 })
 
-document.getElementById('blog').addEventListener('click',function(){
-    window.location.href = `./home.html`;
-})
+
